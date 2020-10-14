@@ -100,6 +100,6 @@ class BarcoPirata {
 	}
 	
 	method cantPiratasInvitados(unPirata){
-		return tripulante.count({ otroPirata => otroPirata.pirataInvitador == unPirata })
+		return tripulante.count({ otroPirata => otroPirata.pirataInvitador() == unPirata })
 	}
 }
