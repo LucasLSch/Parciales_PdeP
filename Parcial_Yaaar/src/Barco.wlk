@@ -96,6 +96,10 @@ class BarcoPirata {
 	}
 	
 	method pirataQueMasInvito(){
-		return tripulantes.max({ unPirata => unPirata.cantPiratasInvitados() })
+		return tripulantes.max({ unPirata => self.cantPiratasInvitados(unPirata) })
+	}
+	
+	method cantPiratasInvitados(unPirata){
+		return tripulante.count({ otroPirata => otroPirata.pirataInvitador == unPirata })
 	}
 }
