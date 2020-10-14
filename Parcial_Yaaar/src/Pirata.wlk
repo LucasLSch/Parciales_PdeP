@@ -7,7 +7,7 @@ class Pirata {
 	const property items
 	var property nivelDeEbriedad
 	var property monedas
-	var property cantPiratasInvitados
+	var pirataInvitador = self
 	
 	
 	method esUtilParaMision(unaMision) {
