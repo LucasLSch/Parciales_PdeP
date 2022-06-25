@@ -21,7 +21,8 @@ namibia :: Pais
 namibia = Pais 4140 400000 650000 ["Mineria", "Ecoturismo"] 50
 
 argentina :: Pais
-argentina = Pais 2 2 ["exceso de sexo"] 10000
+argentina = Pais 10000 1000000 3000000 ["exceso de sexo"] 10000
+
 --Punto 2
 
 type Estrategia = Pais -> Pais
