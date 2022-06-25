@@ -20,6 +20,8 @@ type Recurso = String
 namibia :: Pais
 namibia = Pais 4140 400000 650000 ["Mineria", "Ecoturismo"] 50
 
+argentina :: Pais
+argentina = Pais 2 2 ["exceso de sexo"] 10000
 --Punto 2
 
 type Estrategia = Pais -> Pais
